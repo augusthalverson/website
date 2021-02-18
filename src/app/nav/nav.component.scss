@@ -1,0 +1,38 @@
+@import "../../styles.scss";
+
+nav {
+
+    width: 100%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a#logo {
+        font-family: ballinger-mono, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5rem;
+    }
+
+    .nav-items {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        .nav-item {
+            margin-left: 2rem;
+            a {
+                color: $lightblue;
+                font-weight: 900;
+
+            }
+        }
+    }
+
+    hr {
+        border: 1px solid $lightblue;
+    }
+}
