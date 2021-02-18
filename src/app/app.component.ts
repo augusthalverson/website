@@ -1,5 +1,5 @@
 import { AfterContentInit, Component } from '@angular/core';
-import anime from 'animejs/lib/anime.es.js';
+import anime from 'animejs';
 import Typed from 'typed.js';
 
 @Component({
