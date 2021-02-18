@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "anime"
+    }
+  },
+  "defaultProject": "anime",
+  "cli": {
+    "analytics": false
+  }
 }
