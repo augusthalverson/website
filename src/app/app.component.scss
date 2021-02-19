@@ -7,12 +7,14 @@
     .circle-grid {
         position: absolute;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        width: 100%;
+        grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+        width: 100vw;
         height: 100vh;
         top: 0;
         left: 0;
         z-index: 0;
+        overflow: hidden;
         .circle {
             width: 88px;
             height: 88px;
@@ -51,9 +53,10 @@
         z-index: 4;
         margin-top: 50px;
         width: 90vw;
-        margin-left: 5%;
+        margin-left: 5vw;
         padding: 4rem 3rem;
         box-shadow: 0 5px 20px #CBCED6;
+        box-sizing: border-box;
 
         #header-rect {
             height: 10px;
